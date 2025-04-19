@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mistri Hub | Leave Review</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- Aos -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- Tabler Icon CSS -->
+	<link rel="stylesheet" href="assets/plugins/tabler-icons/tabler-icons.css">
+
+	<!-- select CSS -->
+	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+
+	<!-- Fancybox CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+	<!-- Rangeslider CSS -->
+	 <link rel="stylesheet" href="assets/plugins/ion-rangeslider/css/ion.rangeSlider.css">
+	<link rel="stylesheet" href="assets/plugins/ion-rangeslider/css/ion.rangeSlider.min.css">
+
+	<!-- Fontawesome Icon CSS -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+	<!-- Owlcarousel CSS -->
+	<link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/feather.css">
+
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<style>
+		.job-star {
+    top: 50px !important;
+    /* left: 46px !important; */
+}
+	</style>
+
+</head>
+<body>
+    
+  	 <!-- Header -->
+	<header class="header header-new">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg header-nav">
+				<div class="navbar-header">
+					<a id="mobile_btn" href="#">
+						<span class="bar-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					</a>
+					<a href="index.html" class="navbar-brand logo">
+						<img src="assets/img/main-logo.png" class="img-fluid" alt="Logo">
+					</a>
+					<a href="index.html" class="navbar-brand logo-small">
+						<img src="assets/img/favicon.png" class="img-fluid" alt="Logo">
+					</a>
+				</div>
+				<div class="main-menu-wrapper">
+					<div class="menu-header">
+						<a href="index.html" class="menu-logo">
+							<img src="assets/img/side-logo.png" class="img-fluid" alt="Logo">
+						</a>
+						<a id="menu_close" class="menu-close" href="javascript:void(0);"> <i
+								class="fas fa-times"></i></a>
+					</div>
+					<ul class="main-nav align-items-lg-center main-menu-desk">
+						<li class="has-submenu">
+							<a href="homeowner-signup.html">Homeowner </a>
+						</li>
+						<li class="has-submenu">
+							<a href="about-us.html">About Us </a>
+						</li>
+						<li class="has-submenu">
+							<a href="contact-us.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav header-navbar-rht">
+					<li class="nav-item">
+						<a href="homeowner-signup.html">Homeowner</a>
+					</li>
+					<li class="nav-item">
+						<a href="trades-signup-details.html">Trades Sign Up</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn btn-linear-primary desk-acct-icon" href="login.html"><i
+								class="ti ti-user-filled me-2"></i>Login</a>
+						<a href="login.html" class="mob-acct-icon"><i class="ti ti-user-filled me-2"></i></a>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown translate">
+							<a href="javascript:void(0);" class="dropdown-toggle fw-medium trans"
+								data-bs-toggle="dropdown">
+								<img src="assets/img/flags/us.png" class="flag me-2" alt="flag">English
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="javascript:void(0);"><img
+											src="assets/img/flags/us.png" class="flag me-2" alt="flag">English</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0);"><img
+											src="assets/img/flags/jp.png" class="flag me-2" alt="flag">Urdu </a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- /Header -->
+
+		<!-- Breadcrumb -->
+		<div class="breadcrumb-bar text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-12">
+						<h2 class="breadcrumb-title mb-2">Leave Review</h2>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb justify-content-center mb-0">
+								<li class="breadcrumb-item">Home</li>
+								<li class="breadcrumb-item active" aria-current="page">Leave Review</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+				<div class="breadcrumb-bg">
+					<img src="assets/img/bg/breadcrumb-bg-01.png" class="breadcrumb-bg-1" alt="Img">
+					<img src="assets/img/bg/breadcrumb-bg-02.png" class="breadcrumb-bg-2" alt="Img">
+				</div>
+			</div>
+		</div>
+		<!-- /Breadcrumb -->
+
+    <!-- Page Wrapper -->
+     <div class="page-wrapper">
+        <div class="content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    
+					<div class="col-xl-10 col-lg-10 col-md-12">
+						<form action="#">
+							<div class="leave-search">
+								<h2>Which trade would you like to review?</h2>
+								<div class="search-container">
+									<input type="text" id="searchInput" placeholder="Search here..." autocomplete="off">
+									<ul class="suggestions" id="suggestionsList">
+									  <li>
+										<div class="suges-inner">
+											<div class="sugges-img">
+												<img src="assets/img/logo/logo-1.jpg" alt="">
+											</div>
+											<div class="sugges-name">
+												<p>
+													North East Electricals
+												</p>
+												
+											</div>
+										</div>
+									  </li>
+									  <li>
+										<div class="suges-inner">
+											<div class="sugges-img">
+												<img src="assets/img/logo/logo-2.jpg" alt="">
+											</div>
+											<div class="sugges-name">
+												<p>
+													Multiconnect communicationsLTD
+												</p>
+												
+											</div>
+										</div>
+									  </li>
+									  <li>
+										<div class="suges-inner">
+											<div class="sugges-img">
+												<img src="assets/img/logo/logo-3.jpg" alt="">
+											</div>
+											<div class="sugges-name">
+												<p>
+													TW Facilities Management Limited
+												</p>
+												
+											</div>
+										</div>
+									  </li>
+									  <li>
+										<div class="suges-inner">
+											<div class="sugges-img">
+												<img src="assets/img/logo/logo-4.jpg" alt="">
+											</div>
+											<div class="sugges-name">
+												<p>
+													Jnp Electrical Services Ltd
+												</p>
+												
+											</div>
+										</div>
+									  </li>
+									  <li>
+										<div class="suges-inner">
+											<div class="sugges-img">
+												<img src="assets/img/logo/logo-5.jpg" alt="">
+											</div>
+											<div class="sugges-name">
+												<p>
+													Switch Electrical & Mechanical Services Ltd
+												</p>
+												
+											</div>
+										</div>
+									  </li>
+									  <li>
+										<div class="suges-inner">
+											<div class="sugges-img">
+												<img src="assets/img/logo/logo-6.jpg" alt="">
+											</div>
+											<div class="sugges-name">
+												<p>
+													CC Electrical Services Contractors Ltd
+												</p>
+												
+											</div>
+										</div>
+									  </li>
+									  <li>
+										<div class="suges-inner">
+											<div class="sugges-img">
+												<img src="assets/img/logo/logo-7.jpg" alt="">
+											</div>
+											<div class="sugges-name">
+												<p>
+													DB Electrical and Building Services
+												</p>
+												
+											</div>
+										</div>
+									  </li>
+									</ul>
+								</div>
+								<a href="trade-review.html" class="nav-link btn btn-linear-primary leave-revbtn">Leave Review</a>
+							</div>
+						</form>
+					</div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- /Page Wrapper -->
+
+     <!-- Footer -->
+	 <footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-xl-5">
+						<div class="footer-widget">
+							<img src="assets/img/footer-logo.png" alt="">
+							<p>
+								Welcome to Mistri Hub, your trusted platform connecting homeowners with skilled
+								tradespeople. Whether you need a plumber, electrician, carpenter, painter, or any other
+								home service, we make finding reliable professionals easy and hassle-free.
+							</p>
+							<div class="foot-social mt-3">
+								<ul class="social-icon">
+									<li>
+										<a href="#"><img src="assets/img/icons/fb.svg" class="img" alt="icon"></a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/icons/instagram.svg" class="img"
+												alt="icon"></a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/icons/twitter.svg"
+												class="img" alt="icon"></a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/icons/youtube.svg"
+												class="img" alt="icon"></a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/icons/linkedin.svg"
+												class="img" alt="icon"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-2">
+						<div class="footer-widget">
+							<h5 class="mb-4">Quick Links</h5>
+							<ul class="footer-menu">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="about-us.html">About Us</a>
+								</li>
+								<li>
+									<a href="contact-us.html">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-2">
+						<div class="footer-widget">
+							<h5 class="mb-4">Support</h5>
+							<ul class="footer-menu">
+								<li>
+									<a href="terms-use.html">terms Of Use</a>
+								</li>
+								<li>
+									<a href="privacy-policy.html">Privacy Policy</a>
+								</li>
+								<li>
+									<a href="faq.html">Faq’s</a>
+								</li>
+								<li>
+									<a href="#">Sitemap</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3">
+						<div class="footer-widget footer-contact">
+							<h6 class="mb-3">Contact Us</h6>
+							<div class="footer-contact-info">
+								<div class="footer-address">
+									<span>
+										<i class="fa-brands fa-whatsapp"></i>
+									</span>
+									<div>
+										<h6>What's App</h6>
+										<p><a href="https://wa.me/+92312567890" target="_blank">+92 312 4567890</a></p>
+									</div>
+								</div>
+								<div class="footer-address">
+									<span><i class="feather-mail"></i></span>
+									<div>
+										<h6>Mail Address</h6>
+										<p>info@mistrihub.com</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer Bottom -->
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="d-flex align-items-center justify-content-center flex-wrap">
+							<p class="mb-2">Copyright &copy; 2025 - All Rights Reserved
+								<span class="main-web-lnk">MistriHub</span>. Designed By <a href="https://www.hubsol.ae"
+									class="foot-web" target="_blank">HUBSOL</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Footer Bottom -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Jquery JS -->
+	<script src="assets/js/jquery-3.7.1.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+	<!-- Wow JS -->
+	<script src="assets/js/wow.min.js" type="text/javascript"></script>
+
+	<!-- select JS -->
+	<script src="assets/plugins/select2/js/select2.min.js" type="text/javascript"></script>
+
+	<!-- Fancybox JS -->
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+	<!-- Ckeditor Js -->
+	<script src="assets/plugins/ckeditor/ckeditor.js" type="text/javascript"></script>
+
+	<!-- Sticky Sidebar JS -->
+	<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js" type="text/javascript"></script>
+	<script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js" type="text/javascript"></script>
+
+	<!-- Rangeslider JS -->
+	<script src="assets/plugins/ion-rangeslider/js/ion.rangeSlider.js" type="text/javascript"></script>
+	<script src="assets/plugins/ion-rangeslider/js/custom-rangeslider.js" type="text/javascript"></script>
+	<script src="assets/plugins/ion-rangeslider/js/ion.rangeSlider.min.js" type="text/javascript"></script>
+
+	<!-- Owlcarousel Js -->
+	<script src="assets/plugins/owlcarousel/owl.carousel.min.js" type="text/javascript"></script>
+
+	<!-- counterup JS -->
+	<script src="assets/js/cursor.js" type="text/javascript"></script>
+	
+	<!-- Script JS -->
+	<script src="assets/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
